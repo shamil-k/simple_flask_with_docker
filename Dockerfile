@@ -14,4 +14,6 @@ COPY . .
 # CMD ["python3", "app.py"]
 
 
-ENTRYPOINT ["python3"]
+# ENTRYPOINT ["python3"]
+
+# CMD ["app.py"]

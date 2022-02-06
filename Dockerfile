@@ -9,8 +9,9 @@ WORKDIR /opt/app
 
 COPY . .
 
-ENTRYPOINT FLASK_APP=/opt/app/app.py flask run --host 0.0.0.0
+# ENTRYPOINT FLASK_APP=app.py flask run --host 0.0.0.0
 
 # CMD ["python3", "app.py"]
 
 
+ENTRYPOINT ["python3"]

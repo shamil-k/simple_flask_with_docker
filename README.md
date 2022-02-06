@@ -12,3 +12,7 @@ docker run Container_Name app.py
 
 docker run Container_Name python3 app.py OR
 docker run --entrypoint=python3  posimage app.py
+
+# if we have multiple Images we can over ride execute by giving in argument
+
+docker run Container_Name app2.py

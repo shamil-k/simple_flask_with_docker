@@ -6,12 +6,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "My first Images"
+    return "My Second Image"
 
 @app.route("/container")
 def container():
-    return "Container run succesfully"
+    return "pythion2 run succesfully"
 
 if __name__ == "__main__":
-    print("1st Image")
+    print("2nd Image")
     app.run()
